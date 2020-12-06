@@ -1,0 +1,78 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: K:/isima/3aA/cpp/prepa_examen/examen/tp_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a6fe1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.26.28805 pour x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6fe1.dir\Debug\\" /Fd"cmTC_a6fe1.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal error C1083: Impossible d'ouvrir le fichier include : 'pthread.h' : No such file or directory [K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\cmTC_a6fe1.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CPP14 failed with the following output:
+Change Dir: K:/isima/3aA/cpp/prepa_examen/examen/tp_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0225c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.26.28805 pour x64
+  src.cxx
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CPP14 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0225c.dir\Debug\\" /Fd"cmTC_0225c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=gnu++14 K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\src.cxx
+cl : ligne de commande warning D9002: option '-std=gnu++14' inconnue ignorée [K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\cmTC_0225c.vcxproj]
+  cmTC_0225c.vcxproj -> K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\Debug\cmTC_0225c.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CPP1Y failed with the following output:
+Change Dir: K:/isima/3aA/cpp/prepa_examen/examen/tp_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_79718.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.26.28805 pour x64
+  src.cxx
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CPP1Y /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_79718.dir\Debug\\" /Fd"cmTC_79718.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=gnu++1y K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\src.cxx
+cl : ligne de commande warning D9002: option '-std=gnu++1y' inconnue ignorée [K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\cmTC_79718.vcxproj]
+  cmTC_79718.vcxproj -> K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\Debug\cmTC_79718.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CPP11 failed with the following output:
+Change Dir: K:/isima/3aA/cpp/prepa_examen/examen/tp_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e696d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.26.28805 pour x64
+  src.cxx
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CPP11 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e696d.dir\Debug\\" /Fd"cmTC_e696d.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=gnu++11 K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\src.cxx
+cl : ligne de commande warning D9002: option '-std=gnu++11' inconnue ignorée [K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\cmTC_e696d.vcxproj]
+  cmTC_e696d.vcxproj -> K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\Debug\cmTC_e696d.exe
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CPP0X failed with the following output:
+Change Dir: K:/isima/3aA/cpp/prepa_examen/examen/tp_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fe2dd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.6.0+5ff7b0c9e pour .NET Framework
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+  Compilateur d'optimisation Microsoft (R) C/C++ version 19.26.28805 pour x64
+  src.cxx
+  Copyright (C) Microsoft Corporation. Tous droits réservés.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_SUPPORTS_CPP0X /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fe2dd.dir\Debug\\" /Fd"cmTC_fe2dd.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue  -std=gnu++0x K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\src.cxx
+cl : ligne de commande warning D9002: option '-std=gnu++0x' inconnue ignorée [K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\cmTC_fe2dd.vcxproj]
+  cmTC_fe2dd.vcxproj -> K:\isima\3aA\cpp\prepa_examen\examen\tp_3\build\CMakeFiles\CMakeTmp\Debug\cmTC_fe2dd.exe
+
+
+Source file was:
+int main() { return 0; }
